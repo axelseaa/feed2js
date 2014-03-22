@@ -37,7 +37,6 @@
 
 // check for status of submit buttons	
 	$generate = (isset($_GET['generate'])) ? $_GET['generate'] : '';
-	if (isset($generate)) $generate = $_GET['generate'];
 
 // update to full descriptions for html turned on	
 	if ($html=='a') $desc = 0;
